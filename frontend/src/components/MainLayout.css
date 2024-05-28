@@ -1,0 +1,61 @@
+/* File: MyCMS/frontend/src/components/MainLayout.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .main-nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .main-nav a, .main-nav button {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px; /* Ensure consistent font size */
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .main-nav a:hover, .main-nav button:hover {
+    background-color: rgb(255, 54, 54);
+    color: rgb(255, 255, 255);
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .submenu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .submenu a:hover {
+    background-color: #ddd;
+  }
+  
+  .main-nav .dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
